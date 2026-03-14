@@ -1,0 +1,75 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://luminaclippers.com/sitemap.xml
+
+# LLM SEO - AI Crawler Directives
+# ============================================================
+# ROBOTS.TXT ADDITIONS FOR LUMINACLIPPERS.COM
+# Add these directives to your existing robots.txt file.
+# ============================================================
+
+# ── AI & LLM Crawlers: Explicit Allow ──────────────────────
+# Allow OpenAI's GPT crawler to index all content
+User-agent: GPTBot
+Allow: /
+
+# Allow Anthropic's Claude crawler to index all content
+User-agent: ClaudeBot
+Allow: /
+
+# Allow Anthropic AI crawler (alternate user agent)
+User-agent: anthropic-ai
+Allow: /
+
+# Allow Perplexity's AI crawler to index all content
+User-agent: PerplexityBot
+Allow: /
+
+# Allow Google's AI training crawler (Bard/Gemini)
+User-agent: Google-Extended
+Allow: /
+
+# Allow Microsoft/OpenAI's Bing crawler
+User-agent: Bingbot
+Allow: /
+
+# Allow Common Crawl (used by many AI training datasets)
+User-agent: CCBot
+Allow: /
+
+# Allow Meta's AI crawler
+User-agent: FacebookBot
+Allow: /
+
+# Allow Apple's AI crawler
+User-agent: Applebot-Extended
+Allow: /
+
+# Allow Cohere's AI crawler
+User-agent: cohere-ai
+Allow: /
+
+# ── LLMs.txt Reference ─────────────────────────────────────
+# This site provides an llms.txt file for AI/LLM context.
+# Location: https://luminaclippers.com/llms.txt
+# The llms.txt file follows the specification at https://llmstxt.org
+# and contains a comprehensive summary of Lumina Clippers'
+# services, results, and brand positioning for LLM ingestion.
+
+# ── Standard Crawlers ─────────────────────────────────────
+User-agent: *
+Allow: /
+
+Sitemap: https://luminaclippers.com/sitemap.xml
+
+# ── Notes for Webmaster ───────────────────────────────────
+# 1. Upload llms.txt to: https://luminaclippers.com/llms.txt
+# 2. Verify llms.txt is publicly accessible and not blocked
+#    by any existing Disallow rules.
+# 3. Submit sitemap.xml to Google Search Console, Bing
+#    Webmaster Tools, and other search engines.
+# 4. Monitor AI citation tools (Perplexity, ChatGPT, Gemini)
+#    regularly to track brand mentions and citation frequency.
+# ============================================================
+
