@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Lumina Clippers: Content Clipping & Distribution for Brands",
+  title: "Content Clipping Distribution for Brands | Lumina Clippers",
   description:
-    "Lumina Clippers: Content clipping & distribution for brands across TikTok, Reels, X, & Shorts. Book a consultation.",
+    "Lumina Clippers helps brands run large-scale short-form clipping campaigns across TikTok, Reels, X, and Shorts. Strategy, clipper management, distribution, payouts, and reporting handled for you.",
   keywords: [
     "content clipping",
     "social media distribution",
